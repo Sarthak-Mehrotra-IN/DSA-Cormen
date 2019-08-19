@@ -23,7 +23,6 @@ public class Main {
     }
     public static int [] InsertionSort(int [] A){
         for(int j=1;j<A.length;j++){
-            System.out.println(Arrays.toString(A));
             int key=A[j];
             int i=j-1;
             while(i>=0 && A[i]>key){
